@@ -19,6 +19,7 @@ app.post('/api/upload', upload.single('file'), (req, res) => {
 
 const port = process.env.PORT || 3000;
 
+//. -- port test
 app.listen(port, () => {
     console.log(`listening on port ${port}`)
 });
